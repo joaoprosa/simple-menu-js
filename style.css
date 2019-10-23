@@ -1,0 +1,40 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header{
+        border: solid 5px black;
+        background-color: yellow;
+    }
+    .menu, .xis{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .xis{
+        display: none;
+        width: 90px;
+        height: 80px;
+        margin-left: 5px;
+    }
+    nav{
+        width: 100px;
+        height: 150px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
